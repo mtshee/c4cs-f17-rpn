@@ -1,5 +1,5 @@
 # Python_RPN
-Repo for Coveralls Code Coverage Integration EECS 398 ADV HW 8
+Repo for Travis CI intergration in Github EECS 398 HW 8
 
 
 
