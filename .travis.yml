@@ -1,0 +1,15 @@
+language: python
+python:
+  - "2.7"
+  - "3.5"
+  - "nightly"
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+# command to run tests
+script:
+    # or py.test for Python versions 3.5 and below
+  - py.test 
+  - coverage run test_rpn.py
+after_success:
+  - coveralls
